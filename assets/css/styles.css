@@ -809,10 +809,9 @@ footer {
 }
 @media screen and (max-width: 575px) {
   .swiper-slide img {
-    width: 90%;
+    width: 100%;
     padding-top: 0px;
     justify-self: center;
-    margin-left: 22px;
   }
 }
 
