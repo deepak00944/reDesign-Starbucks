@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/swiper.css" />
+        <link rel="icon" href="assets/img/logo.png">
+        <title>Starbucks Redesign</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    </head>
+    <body>
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+        <header class="header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo"><img src="assets/img/logo.jpg"></a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#history" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
+                        <li><i class='bx bxs-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+
+        <main class="l-main">
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data" id="home__data">
+                        <h2 class="home__subtitle">It's not just a page</h2> <h1 class="home__title"><span>It's</span> Journey</h1>
+                        <p class="home__paragraph">Immerse yourself in the rich history, vibrant culture, and innovative offerings of our coffee.</p>
+                        <p class="home__paragraph">Brewing passion since 1971</p>
+                    </div>
+                    <div class="swiper-container mySwiper" >
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide" >
+                            <img src="assets/img/img1.jpg" >
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/img2.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/img3.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/img4.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/img5.jpg">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="about section bd-container" id="about">
+            <section id="history">
+            <div class="about_container">
+                <h2>Our History</h2>
+                <div class="timeline">
+                    <div class="event">
+                        <div class="year">1971</div>
+                        <div class="description">First store opens in Seattle's Pike Place Market</div>
+                    </div>
+                    <div class="event">
+                        <div class="year">1987</div>
+                        <div class="description">Howard Schultz acquires Starbucks and expands</div>
+                    </div>
+                    <div class="event">
+                        <div class="year">1995</div>
+                        <div class="description">Frappuccino is introduced</div>
+                    </div>
+                    <div class="event">
+                        <div class="year">2011</div>
+                        <div class="description">40th anniversary and new logo unveiled</div>
+                    </div>
+                </div>
+            </div>
+            </section>
+        
+            <section>
+                <div id="about__container">
+                        <h2>Our Story</h2>
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial"><h1>Every sip is a delight</h1></span>
+                        <br>
+                        <p class="about__description">At Starbucks Coffee, we are dedicated to the craft of brewing exceptional coffee. Our journey began with a passion for delivering the finest coffee experience to our customers. From sourcing the highest quality beans to expertly brewing each cup, we strive for perfection in every sip. Explore our site to discover the artistry behind our brews. Today, we're a global family of over 30,000 stores in 75 countries, united by a shared passion for ethically sourcing and roasting the world's finest coffee</p>
+                        <br>
+                        <a href="#" class="button">See Our Heritage</a>
+                    </div>
+                
+                    <div class="pin-container" onmouseover="onMouseEnter()" onmouseleave="onMouseLeave()">
+                        <div class="pin-content">
+                            <div class="pin-content-inner">
+                                <div class="pin-content-item">
+                                <img src="assets/img/about_img.jpg" alt="">
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="full-width-bg">
+                <section class="menu section bd-container" id="menu">
+                    <span class="section-subtitle">Menu Specials</span>
+                    <h2 class="section-title">These are the most popular among our customers</h2>
+                        <div class="menu__content " >
+                                <section id="coffee-menu">
+                                    <h1 id="coffee_h1">Our Coffee Selection</h1>
+                                    <div class="menu-container">
+                                        
+                                    </div>
+                                </section> 
+                        </div>
+                </section>
+            </div>
+
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Get In Touch</span>
+                        <h2 class="section-title contact__initial">Contact Us</h2>
+                        <p class="contact__description">Contact Us for more information and we will attend you quickly.</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="contact-box">
+                        <div class="visme_d" data-title="Club Membership Sign Up Form" data-url="y4vg1myg-club-membership-sign-up-form" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="80604"></div><script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-column">
+                <div class="logo">👣</div>
+                <div class="copyright">
+                    © 2024 Your Company, Inc.<br>
+                    All rights reserved.
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Metaverse</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Connect With Us</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </footer>
+    
+        <script src="assets/js/scrollreveal.js"></script>
+        <script src="assets/js/swiper.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
