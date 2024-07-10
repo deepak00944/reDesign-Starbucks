@@ -187,7 +187,7 @@ function onMouseEnter() {
     `;
     return coffeeElement;
   }
-  
+   
   function loadCoffeeMenu() {
     const menuContainer = document.querySelector('.menu-container');
     coffeeMenu.forEach(coffee => {
