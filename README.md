@@ -1,5 +1,5 @@
 # StarBucks Redesign Website
-https://deepak00944.github.io/reImagine-Round-1/
+https://deepak00944.github.io/reDesign-Starbucks/
 ### StarBucks Redesign Website
 
 - Starbucks Redesign built using HTML, CSS & JAVASCRIPT.
